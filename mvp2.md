@@ -7,6 +7,7 @@ Our starting goals were:
 -	Can we predict user rating for a movie given the total budget and the number of genres which the movie belongs to? 
 
 After building the model we did the OLS regression method and got these results from the function:
+![StatRegression](https://user-images.githubusercontent.com/90554959/138135040-b1861ce8-bad0-407a-a77e-bbb537025b1f.PNG)
 
 As we can see in the screenshot above, we can see the R^2 scores and the R-adj, and it’s around 0.70.
 After the OLS we are planning to use these models:
@@ -18,6 +19,8 @@ After the OLS we are planning to use these models:
 
 
 In the heatmap below we can see the correlation relationship between the target values to other columns. We can see a correlation relationship between the revenue and other columns. Also, there is a correlation between the animation column and the family column.
+
+![heatmap_movies](https://user-images.githubusercontent.com/90554959/138135150-b1ec2c5b-0cff-47f1-b6a0-1c2a7fb673ef.PNG)
 
 
 ```python
