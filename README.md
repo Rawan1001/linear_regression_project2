@@ -1,4 +1,4 @@
-# linear_regression_project2
+# Predicting the Revenue for the movie DB
 
 # Overview:
 
